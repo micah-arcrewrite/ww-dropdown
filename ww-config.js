@@ -181,6 +181,7 @@ export default {
     },
     forceDisplayEditor: {
       type: "OnOff",
+      bindable: true,
       label: {
         en: "Force display in editor",
       }
