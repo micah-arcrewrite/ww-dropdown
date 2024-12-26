@@ -16,6 +16,7 @@ export default {
       },
       type: "TextSelect",
       defaultValue: "click",
+      bindable: true,
       options: {
         options: [
           { value: "click", label: { en: "Click" } },
@@ -30,6 +31,7 @@ export default {
       },
       type: "TextSelect",
       defaultValue: "bottom",
+      bindable: true,
       options: {
         options: [
           { value: "top", label: { en: "Top" } },
@@ -42,6 +44,7 @@ export default {
     alignment: {
       label: { en: "Align" },
       type: "TextRadioGroup",
+      bindable: true,
       options: (content) => {
         if (content.position === "top" || content.position === "bottom") {
           return {
